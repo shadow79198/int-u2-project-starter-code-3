@@ -1,12 +1,47 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
 header {
-    background-color: black;
-    color: white;
+    background-color: #410738;
+    color: #16ACF5;
     padding: 128px 16px;
     display: flex;
     justify-content: center;
 }
 img{
-    height: 40%;
-    width: 40%;
+    height: 70%;
+    width: 70%;
+    position: relative;
+    left: 60%;
+    top: 50px;
+
+}
+body{
+    background-color: #EEE1B3;
+    color: #4D3636;
+    font-family: "Amita";
+}
+p, li{
+    font-size: 22px;
+}
+.section{
+    display: flex;
+}
+span{
+    display: block;
+}
+#second{
+    height: 70%;
+    width: 70%;
+    position: relative;
+    left: 25%;
+    top: 100px;
+
+}
+
+.text{
+    width: 50%;
+    height: 50%;
+}
+.text-final{
+    width: 100%;
+    height: 100%;
 }
