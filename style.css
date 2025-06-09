@@ -3,4 +3,10 @@ header {
     background-color: black;
     color: white;
     padding: 128px 16px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 40%;
+    width: 40%;
 }
